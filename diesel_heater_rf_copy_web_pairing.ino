@@ -7,8 +7,8 @@
 #include "DieselHeaterRF.h"
 
 // WiFi credentials
-const char *ssid = "stevennet4g";
-const char *password = "12222111";
+const char *ssid = "";
+const char *password = "";
 
 // Web server and WebSocket server
 WebServer server(80);
