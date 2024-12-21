@@ -201,7 +201,7 @@ void DieselHeaterRF::initRadio() {
   writeReg(0x0C, 0x00); // FSCTRL0
   writeReg(0x0D, 0x10); // FREQ2
   writeReg(0x0E, 0xB0); // FREQ1
-  writeReg(0x0F, 0x3B); // FREQ0
+  writeReg(0x0F, 0x9C); // FREQ0
   writeReg(0x10, 0xF8); // MDMCFG4
   writeReg(0x11, 0x93); // MDMCFG3
   writeReg(0x12, 0x13); // MDMCFG2
